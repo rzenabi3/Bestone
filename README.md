@@ -1,8 +1,8 @@
-# <>Search-Engine-Optimization
+# Search-Engine-Optimization
 HORISEON
 
 ## Description
--
+
 -The main goal is to create a codebase/site that utilizes all the potential for various search engines. Allowing only the highest acessability standards for our customer base.
 -Through extensive editing and re-writing I was able to create a page that is fully functional and operable for various types of full screen desktops.  
 -As I performed extensive research for this code base I learned that various sections of this code were not composed correctly, with little adjustments through dev tools i was able to repair numerous sections of the codebase.
