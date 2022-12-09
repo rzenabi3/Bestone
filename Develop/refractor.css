@@ -44,6 +44,8 @@ body {
 a {
     color: #ffffff;
     text-decoration: none;
+    margin-right: 3px;
+    font-size: 25px;
 }
 
 p {
@@ -51,9 +53,9 @@ p {
 }
 
 .hero {
-    height: 800px;
+    height: 1308px;
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 42px;
     background-image: url("../Assets/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
@@ -67,7 +69,8 @@ p {
 
 .float-left {
     float: left;
-    margin-right: 25px;
+    margin-right: 39px;
+    text-align: right;
 }
 
 .float-right {
@@ -76,14 +79,15 @@ p {
 }
 
 .content {
-    width: 72%;
+    width: 73%;
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 25px;
+    margin-top: 0px;
 }
 
 .benefits {
     margin-right: 2%;
-    padding: 62px;
+    padding: 73px;
     clear: both;
     float: right;
     width: 23%;
@@ -140,9 +144,9 @@ p {
 }
 
 .search-engine-optimization {
-    margin-bottom: 13px;
-    padding: 49px;
-    height: 366px;
+    margin-bottom: 25px;
+    padding: 37px;
+    height: 350px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
@@ -158,9 +162,9 @@ p {
 }
 
 .social-media-marketing {
-    margin-bottom: 31px;
-    padding: 86px;
-    height: 340px;
+    margin-bottom: 34px;
+    padding: 98px;
+    height: 360px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
@@ -168,6 +172,7 @@ p {
 
 .search-engine-optimization img {
     max-height: 277px;
+    margin-left: 36px;
 }
 
 .online-reputation-management img {
@@ -175,7 +180,9 @@ p {
 }
 
 .social-media-marketing img {
-    max-height: 200px;
+    max-height: 247px;
+    margin-top: -40px;
+    margin-left: 6px;
 }
 
 .search-engine-optimization h2 {
@@ -185,12 +192,16 @@ p {
 
 .online-reputation-management h2 {
     margin-bottom: 14px;
-    font-size: 41px;
+    font-size: 60px;
+    text-align: left;
+    margin-left: -7px;
 }
 
 .social-media-marketing h2 {
-    margin-bottom: 2px;
-    font-size: 48px;
+    margin-bottom: 8px;
+    font-size: 60px;
+    margin-top: -55px;
+    text-align: left;
 }
 
 .footer {
@@ -201,52 +212,4 @@ p {
 }
 
 .footer h2 {
-    font-size: 20px;
-}
-/*Media screen used to adjust boxes so that they fit the wrapped flexboxes as they stretch*/
-
-@media screen and (max-width: 992px) {
-    /*Sets the header to a different height so it can hold the div ul elements as they display vertically*/
-    .header {
-        height: 170px;
-    }
-    /*Aligns text to the right so they don't interfere with the title and has them stack vertically as the flex*/
-    .header div ul {
-        text-align: right;
-        flex-direction: column;
-    }
-    /*Set all the content class divs to a height of 550px so they can hold all the flexboxed content*/
-    .search-engine-optimization {
-        height: 550px;
-    }
-    .online-reputation-management {
-        height: 550px;
-    }
-    .social-media-marketing {
-        height: 550px;
-    }
-    /*Set all the titles of the benefit class to a smaller font size so they can appear in full on smaller screens*/
-    .benefit-lead h3 {
-        font-size: 12px;
-    }
-    .benefit-brand h3 {
-        font-size: 12px;
-    }
-    .benefit-cost h3 {
-        font-size: 12px;
-    }
-}
-
-/*Another media screen used to hide the images on the side bar when the screen size becomes much smaller*/
-
-@media screen and (max-width: 768px) {
-    .benefit-lead img {
-        display: none;
-    }
-    .benefit-brand img {
-        display: none;
-    }
-    .benefit-cost img {
-        display: none;
-    }
-}
+    font-size: 20px;}
