@@ -41,4 +41,4 @@ Project status
 Development has been completed or stopped completely. Someone may choose to fork the project or volunteer to step in as a maintainer if necessary.
 
 ## License 
-MIT License. 
+MIT License
